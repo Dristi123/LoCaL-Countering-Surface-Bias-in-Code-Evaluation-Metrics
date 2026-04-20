@@ -1,7 +1,21 @@
 # LoCaL-Countering-Surface-Bias-in-CEMs
-This repository contains the replication package and the CEM evaluation benchmark, LoCaL, introduced in the FSE2026 paper, **LoCaL: Countering Surface Bias in Code Evaluation Metrics**
-<br>N.B: For consistency, figures and tables in this README use the same numbering as the paper.</br>
-## Conda Environment
+This repository contains the **replication package** and the **CEM evaluation benchmark, LoCaL**, introduced in the FSE 2026 paper:
+
+> ## LoCaL: Countering Surface Bias in Code Evaluation Metrics
+
+<br>
+
+**Note:** For consistency, figures and tables in this README use the same numbering as in the paper.
+
+---
+## :file_folder: Benchmark
+
+The LoCaL benchmark is available at:
+
+```bash
+./LoCaL.jsonl
+```
+## :gear: Conda Environment
 1. Create a Conda env
 ```bash
 conda create -n local python=3.8.20
@@ -14,7 +28,7 @@ conda activate local
 ```bash
 pip install -r requirements.txt
 ```
-## Reproduce RQ1 results
+## :bar_chart: Reproducing RQ1 results
 ```bash
 cd Experiments/RQ1/scripts
 chmod +x run.sh
@@ -23,7 +37,7 @@ chmod +x run.sh
 This will generate Table 3 inside the [`Experiments/RQ1/results`](Experiments/RQ1/results) directory.
 ![Table 3 — RQ1 results](assets/table_3.png)
 
-## Reproducing RQ2 results
+## :bar_chart: Reproducing RQ2 results
 ```bash
 cd Experiments/RQ2/scripts
 chmod +x run.sh
@@ -32,7 +46,7 @@ chmod +x run.sh
 This will generate Table 4 inside the [`Experiments/RQ2/results`](Experiments/RQ2/results) directory.
 ![Table 4 — RQ2 results](assets/table_4.png)
 
-## Reproducing RQ3 results
+## :bar_chart: Reproducing RQ3 results
 ```bash
 cd Experiments/RQ3/scripts
 chmod +x run.sh
@@ -41,7 +55,7 @@ chmod +x run.sh
 This will generate Figure 5 inside the [`Experiments/RQ3/results`](Experiments/RQ3/results) directory.
 ![Figure 5 — RQ3_results](assets/scatter_plot.png)
 
-## Reproducing RQ4 results
+## :bar_chart: Reproducing RQ4 results
 ```bash
 cd Experiments/RQ4/scripts
 chmod +x run.sh
@@ -50,7 +64,7 @@ chmod +x run.sh
 This will generate Table 5 inside the [`Experiments/RQ4/results`](Experiments/RQ4/results) directory.
 ![Table 5 — RQ4 results](assets/table_5.png)
 
-## Reproducing RQ5 results
+## :bar_chart: Reproducing RQ5 results
 1. Navigate to the scripts directory
 ```bash
 cd Experiments/RQ5/scripts
@@ -68,7 +82,7 @@ This will generate Table 6 inside the [`Experiments/RQ5/results`](Experiments/RQ
 
 ![Table 6 — RQ5 results](assets/table_6.png)
 
-## Literature Survey
+## :book: Literature Survey
 ``` bash
 python3 get_stats.py
 ```
