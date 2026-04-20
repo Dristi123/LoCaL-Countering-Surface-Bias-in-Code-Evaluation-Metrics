@@ -1,6 +1,6 @@
 # LoCaL-Countering-Surface-Bias-in-CEMs
-This repository contains the replication package that generates the results shown in the submission.
-<br>**For consistency, figures and tables in this README use the same numbering as the paper.**</br>
+This repository contains the replication package and the CEM evaluation benchmark, LoCaL, introduced in the FSE2026 paper, **LoCaL: Countering Surface Bias in Code Evaluation Metrics**
+<br>N.B: For consistency, figures and tables in this README use the same numbering as the paper.</br>
 ## Conda Environment
 1. Create a Conda env
 ```bash
